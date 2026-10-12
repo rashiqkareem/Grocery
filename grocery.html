@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tailwind</title>
+    <!--tailwind linking-->
+      <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+<div>
+   <div class="bg-[url(./image/bg.jpeg)] bg-cover bg-center bg-no-repeat min-h-screen px-28 py-5">
+        <nav class="flex items-center">
+            <img class="w-30 h-25 cursor-pointer" src="image/logo.png" alt="no">
+
+            <ul class="flex-1 text-center">
+                <li class="list-none inline-block"><a class="text-white px-2" href="#">Home</a></li>
+                <li class="list-none inline-block"><a class="text-white px-2" href="#">About</a></li>
+                <li class="list-none inline-block"><a class="text-white px-2" href="#">Features</a></li>
+                <li class="list-none inline-block"><a class="text-white px-2" href="#">Contact</a></li>
+
+            </ul>
+            <img class="w-20 h-15" src="image/menu.png" alt="no">
+
+        </nav>
+
+
+        <div class="text-white lg:grid grid-cols-2 gap-4 mt-10 items-center text-center lg:text-start">
+            <div>
+                <h1 class="text-6xl font-semibold leading-normal mb-2">Groceries<br> Delivery In 10 Min</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque numquam sint officia veniam perspiciatis ad saepe eveniet quibusdam quidem. Repudiandae iure quisquam similique quam laudantium neque ullam ipsam id nostrum!</p>
+                <div class="mt-10">
+                    <a class="bg-yellow-400 py-3 px-8 rounded-3xl font-medium mr-5 border border-yellow-400 hover:bg-transparent" href="">order now</a>
+                    <a class="bg-slate-400 py-3 px-8 rounded-3xl border border-slate-400 hover:bg-transparent" href="">Download app &darr;</a>
+                </div>
+            </div>
+            <div>
+            <img src="image/mam.png" alt="no">
+        </div>
+    </div>
+
+    <div class="my-10 text-white">
+        <h1 class="text-5xl text-center font-semibold">popular groceries</h1>
+        <div class="lg:grid grid-cols-3 items-center gap-4 mt-10">
+            <div class="border rounded bg-white p-5 text-center mb-5 lg:mb-0">
+                <img class="w-20 h-20" src="image/gro1.png" alt="no">
+                <h3 class="text-lg text-black font-medium">grocery 1</h3>
+            </div>
+            <div class="border rounded bg-white p-5 text-center mb-5 lg:mb-0">
+                <img class="w-20 h-20" src="image/gro2.png" alt="no">
+                <h3 class="text-lg text-black font-medium">grocery 1</h3>
+            </div>
+            <div class="border rounded bg-white p-5 text-center mb-5 lg:mb-0">
+                <img class="w-20 h-20" src="image/gro3.png" alt="no">
+                <h3 class="text-lg text-black font-medium">grocery 1</h3>
+            </div>
+        </div>
+    </div>
+   </div>
+
+   <div class="lg:grid grid-cols-4 text-black mb-10">
+    <div class="col-span-1">
+        <h1 class="text-2xl font-semibold">contact us</h1>
+        <p class="my-3">info@grocery.com</p>
+        <p>+9209202992</p>
+    </div>
+    <div class="col-span-1">
+    </div>
+    <div class="col-span-2">
+        <h1 class="text-2xl font-semibold">Subscribe to our Mailbox</h1>
+        <div class="flex mt-3">
+            <input class="p-2 border w-full text-gray-700" type="text" placeholder="E mail">
+            <button class="bg-yellow-400 px-2 mx-2 rounded">Subscribe</button>
+        </div>
+    </div>
+   </div>
+   <!--footer-->
+   <footer class="text-black text-center p-3">
+    &copy;All Rights Are Reserved</footer>
+
+</div>
+</body>
+</html>
